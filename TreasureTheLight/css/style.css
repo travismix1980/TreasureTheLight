@@ -1,0 +1,47 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image:url("../assets/imgs/ttlBannerBG.png");
+}
+
+#container{
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+                 0px 8px 13px rgba(0,0,0,0.3),
+                 0px 18px 23px rgba(0,0,0,0.3);
+}
+
+h1{
+    font-size: 102px;
+    font-family: 'Cormorant', serif;
+    color: #eeefe0;
+    
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 34%;
+    margin-left: 34%;
+    color: #eeefe0;
+}
+
+button{
+    margin-top: 10%;
+}
+
+.btn-default{
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'Open Sans', sans-serif;
+    color: #eeefe0;
+    border-color: #eeefe0;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.btn-default:hover{
+    background-color: #eeefe0;
+    color: gray;
+}

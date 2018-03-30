@@ -1,0 +1,109 @@
+body{
+    background-color: #eeefe0;
+    padding-top: 70px;
+}
+
+.navbar-default{
+    background-color: #a09a78;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/*text color of Treasure The Light in navbar*/
+.navbar-default .navbar-brand{
+    color: #eeefe0;
+}
+
+/*Link color navbar*/
+.navbar-default .navbar-nav>li>a{
+    color: #eeefe0;
+}
+
+/*Link color for navbar active page*/
+.navbar-default .navbar-nav>.active>a{
+    background-color: #eeefe0;
+    color: gray;
+}
+
+/*text color of Treasure The Light in navbar on hover*/
+.navbar-default .navbar-brand:hover{
+    color: #eeefe0;
+}
+
+/*Link color for navbar active page on hover*/
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: #eeefe0;
+}
+
+/*Link color navbar on hover*/
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: #eeefe0;
+    color: gray;
+}
+
+
+.jumbotron{
+    background-image: url("../assets/imgs/crossAndLight.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+}
+
+.jumbotron h1{
+    text-align: center;
+    color: #eeefe0;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.jumbotron p{
+    text-align: center;
+    color: #eeefe0;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1{
+    font-family: 'Cormorant', serif;
+    color: #292727;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: gray;
+}
+
+
+.footer{
+    background-color: #a09a78;
+    position: absolute;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+#footer-address{
+    padding-top: 20px;
+    list-style: none;
+    color: #3e3e3e;
+}
+
+.footer-link{
+    color: #3e3e3e;
+}
+
+.footer-link:hover{
+    color: #3e3e3e;
+}
+
+.footer-link:visited{
+    color: #3e3e3e;
+}
+
+#copyright{
+    color: #3e3e3e;
+    text-align: center;
+}
